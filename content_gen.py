@@ -7,6 +7,7 @@ import os
 from crewai_tools import SerperDevTool
 import litellm
 from dotenv import load_dotenv
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
