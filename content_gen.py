@@ -25,7 +25,6 @@ SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 os.environ["SERPER_API_KEY"] = SERPER_API_KEY
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # Initialize search tools
 serper_tool = SerperDevTool()
